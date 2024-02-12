@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": {
+    "name": "Panna Das",
+    "email": "pppaaannnaaa@gmail.com",
+    "url": "https://github.com/pppaaannnaaa/dash_mock_server"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15"
+  }
+}
